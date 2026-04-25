@@ -24,7 +24,7 @@ pipeline {
 
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: ''
+                git branch: 'main', url: 'https://github.com/ravindrajyothi/Book-my-show-real-E2E-Project.git'
                 sh 'ls -la'  // Verify files after checkout
             }
         }
